@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Memory Tester</title>
+    <script type="text/javascript" src="vendor/jquery-3.7.1.slim.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <style>
+      ins {
+	  color: green;
+      }
+      del {
+	  color: red;
+      }
+      #display {
+	  font-size: 18pt;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Memory Tester</h1>
+    <label for="input">Paste text:</label>
+    <input name="input" id="input"></input>
+    <div id="display" data-index="0"></div>
+    <input id="check"></input>
+  </body>
+</html>
